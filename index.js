@@ -42,7 +42,7 @@ server.listen(PORT, () => console.log('Server is running on port: ', PORT));
 
 socketIOHandler(server, {
   cors: {
-    origin: 'http://localhost:5173',
+    origin: 'https://ravens-k7yahy4hs-xmauu.vercel.app',
     methods: ['GET', 'POST'],
   },
 });
